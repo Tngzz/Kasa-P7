@@ -1,13 +1,14 @@
+import Header from '../../components/Header/index';
+import Footer from '../../components/Footer/index';
 
 
-
-function Home () {
+export default function Home () {
     return (
-        <div>
-            <h1>HOME</h1>
+        <div className='Home'>  
+            <Header />
+            <h1>Home</h1>
+            <Footer/>
+            
         </div>
-        
-    )
-}
-
-export default Home
+    );
+};

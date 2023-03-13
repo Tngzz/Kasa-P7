@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    background-color:black ;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+img {
+    width: 122px;
+    height: 40 px;
+}
+
+p {
+    color: white;
+}
