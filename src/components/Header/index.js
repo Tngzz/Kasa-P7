@@ -9,7 +9,7 @@ function header () {
         <div className='header'>
             <header>
                 <div> 
-                    <img src={Logo} alt="Kasa, location d'appartement"></img>
+                    <img className='imgHeader' src={Logo} alt="Kasa, location d'appartement"></img>
                 </div>
                 <nav className='navBar'>
                     <ul>

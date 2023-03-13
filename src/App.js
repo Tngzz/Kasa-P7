@@ -1,13 +1,18 @@
-import { BrowserRouter } from 'react-router-dom'
-import PublicRouter from './pages/PublicRouter'
-
+import { BrowserRouter } from 'react-router-dom';
+import PublicRouter from './pages/PublicRouter';
+import { GlobalStyle } from './utils/style/GlobalStyle';
 
 function App() {
-    return <div className='App'>
+  return (
+    <>
+      <GlobalStyle />
+      <div className="App">
         <BrowserRouter>
-            <PublicRouter />
+          <PublicRouter />
         </BrowserRouter>
-    </div>
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,31 @@
+.banner {
+    height: 220px;
+    width: 90%;
+    border-radius: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/banner.png');
+    background-position: center;
+    margin: 43px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.bannerAbout {
+    height: 220px;
+    width: 90%;
+    border-radius: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/banner.png');
+    background-position: center;
+    margin: 43px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.TitleBanner {
+    color: white;
+    font-size: 48px;
+    
+}
