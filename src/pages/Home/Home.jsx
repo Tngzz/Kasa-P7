@@ -1,6 +1,7 @@
 import Header from '../../components/Header/index';
 import Footer from '../../components/Footer/index';
 import Banner from '../../components/Banner/index';
+import Gallery from '../../components/Gallery/index';
 
 
 export default function Home () {
@@ -8,7 +9,7 @@ export default function Home () {
         <div className='Home'>  
             <Header />
             <Banner />
-            <h1>Home</h1>
+            <Gallery />
             <Footer/>
             
         </div>
