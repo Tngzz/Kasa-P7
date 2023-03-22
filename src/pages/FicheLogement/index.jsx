@@ -1,30 +1,32 @@
 import Header from '../../components/Header/index';
 import Footer from '../../components/Footer/index';
 import { useParams } from 'react-router-dom';
-import Data from '../../data/data.json'
+import Data from '../../data/data.json';
+import Error from '../../components/Error';
+import Carrousel from '../../components/Carrousel';
+import Info from '../../components/Info';
 
 export default function MyComponent() {
-    const idHebergement = useParams('id').id;
-    console.log(idHebergement)
+    const { id } = useParams();
+  
     const hebergementActuel = Data.find((item) => item.id === id);
-    if(hebergementActuel.length === 0){
-        return <Error />}
-        else{
-            return <Hebergements />
-        }
-    
+  
+    if (!hebergementActuel) {
+      return <Error />;
+    } else {
+      return <Hebergements hebergementActuel={hebergementActuel} />;
+    }
   }
-
-
-
-  export function Hebergements () {
+  
+  export function Hebergements(props) {
+    const { hebergementActuel } = props;
     return (
-        <div>
-            <Header />
-            <h1>Hebergements</h1>
-            <Footer />
-        </div>
-        
-    )
-}
- 
+      <div>
+        <Header />
+        <Carrousel dataHebergement={hebergementActuel} />
+        <Info />
+        <Footer />
+      </div>
+    );
+  }
+  

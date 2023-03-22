@@ -15,7 +15,7 @@
     height: 220px;
     width: 90%;
     border-radius: 25px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/banner.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/BannerAbout.png');
     background-position: center;
     margin: 43px auto;
     display: flex;

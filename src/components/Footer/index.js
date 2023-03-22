@@ -8,9 +8,9 @@ function footer () {
         <div className='footer'>
             <footer>
                 <img src={Logo} alt="Kasa, location d'appartement"></img>
-                <p className='Right'>
+                <div className='Right'>
                     <h1>© 2020 Kasa. All rights reserved</h1>
-                </p>
+                </div>
             </footer>
         </div>
     );

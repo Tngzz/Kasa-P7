@@ -8,6 +8,7 @@ const PublicRouter = () => {
     return (
         <div>
             <Routes>
+                <Route path ='/' element={<Home />} />
                 <Route path='/home' element={<Home />} />
                 <Route path='/hebergements/:id' element={<Hebergements />} />
                 <Route path="*" element={<Error />} />

@@ -22,12 +22,11 @@ function handleClick () {
                 ></img>
             </div>
             <div className='textSlide'>
-                
-                    {isOpen && 
-                        
-                        <div className='textBottomeSlide'>{texte}</div>
-                        
-                    }
+                {isOpen && 
+                    
+                    <div className='textBottomeSlide'>{texte}</div>
+                    
+                }
             </div>
         </>  
     )
