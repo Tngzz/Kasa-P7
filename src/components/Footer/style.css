@@ -14,3 +14,14 @@ img {
 .Right {
     color: white;
 }
+
+@media screen and (max-width: 650px) {
+    footer {
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .Right {
+        font-size: 8px;
+    }
+}

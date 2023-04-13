@@ -8,8 +8,8 @@ function Error () {
         <div className='error'>
             <Header />
             <div className='errorStuff'>
-                <img className='errorImg' src = {ErrorImg} alt = 'Code erreur 404'></img>
-                <h1 className='errorText'>Oops! La page que vous demandez n'existe pas.</h1>
+                <h1 className='numberText'>404</h1>
+                <h2 className='errorText'>Oops! La page que vous demandez n'existe pas.</h2>
                 <Link to={"/home"} className="linkBackHome">Retourner sur la page d'Accueil</Link>
                 
             </div> 

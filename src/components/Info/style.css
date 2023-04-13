@@ -13,17 +13,26 @@
     margin-right: 6%;
     display: flex;
     margin-top: 10px;
+    flex-direction: column;
+}
+
+.location {
+    font-style: normal;
+    font-weight: 500;
+}
+
+.namePicture {
+    display: flex;
+    flex-direction: row;
 }
 
 ul {
     list-style: none;
     padding: 0;
-    
 }
 
 li {
     margin: 10px;
-    
 }
 
 .liTags {
@@ -31,10 +40,16 @@ li {
     padding: 10px;
     border-radius: 20px;
     color: white;
+    font-weight: 600;
+    width: 125px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23px;
 }
 
 .tags {
-    margin: 10px;
     display: flex;
     flex-direction: row;
 }
@@ -49,7 +64,62 @@ li {
 
 .name {
     display: flex;
-    margin-right: 10px ;
-
+    margin-right: 20px ;
+    font-style: normal;
+    font-weight: 500;
+    text-align: right;
 }
 
+.hoteHebergementNote {
+    margin-top: 4%;
+}
+
+.ratingStars {
+    padding: 5px;
+    width: 29px;
+}
+
+@media screen and (max-width: 650px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nomHebergement {
+        font-size: 20px;
+        margin: 0px 0px 6px 0px
+    }
+
+    .location {
+        margin: 0;
+    }
+    
+    .liTags {
+        border-radius: 5px;
+        height: 7px;
+        margin: 0px 13px 0px 0px;
+        font-size: 10px;
+    }
+
+    .columnRight {
+        flex-direction: row-reverse;
+    }
+
+    .hoteHebergementNote {
+        margin: 6% 10% 0% 0%;
+    }
+    .name {
+        font-size: 21px;
+        margin: 5px 17px 0px 0px;
+    }
+
+    .profilPicture {
+        width: 60px;
+        height: 60px;
+    }
+
+    .ratingStars {
+        padding: 1px;
+        width: 24px;
+    }
+}

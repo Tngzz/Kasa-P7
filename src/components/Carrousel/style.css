@@ -6,49 +6,70 @@
     overflow: hidden;
   }
   
-  /* Images du carrousel */
-  .carrouselImg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 89.5%;
-    height: 100%;
-    object-fit: cover;
-    margin-left: 5%;
-    border-radius: 30px;
-  }
-  
-  /* Flèche précédente */
-  .arrowPrevious {
-    position: absolute;
-    top: 50%;
-    left: 7%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-  }
-  
-  /* Flèche suivante */
-  .arrowNext {
-    position: absolute;
-    top: 50%;
-    right: 7%;
-    transform: translateY(-50%);
-    width: 40px;
-    height: 40px;
-    cursor: pointer;
-  }
-  
-  /* Style des flèches */
-  .arrowPrevious, .arrowNext {
-    
-    border: none;
-    outline: none;
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .arrowPrevious:hover, .arrowNext:hover {
-    transform: translateY(-50%) scale(1.2);
-  }
+/* Images du carrousel */
+.carrouselImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 89.5%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: 5%;
+  border-radius: 10px;
+}
+
+/* Flèche précédente */
+.arrowPrevious {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Flèche suivante */
+.arrowNext {
+  position: absolute;
+  top: 50%;
+  right: 7%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Style des flèches */
+.arrowPrevious, .arrowNext {
+  border: none;
+  outline: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.arrowPrevious:hover, .arrowNext:hover {
+  transform: translateY(-50%) scale(1.2);
+}
+
+@media screen and (max-width: 650px) {
+    .carrouselImg {
+      height: 255 px;
+    }
+
+    .carrousel {
+      height: 255px;
+    }
+
+    .arrowNext {
+      width: 20px;
+      height: 20px;
+      right: 10%;
+    }
+
+    .arrowPrevious {
+      width: 20px;
+      height: 20px;
+      left: 10%;
+    }
+}
   

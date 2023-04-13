@@ -1,0 +1,58 @@
+.hebergementCollapseItem {
+    flex-basis: 50%;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    width: 80%;
+    
+  }
+
+.hebergementCollapse {
+    display: flex;
+    justify-content: center;
+}
+
+.arrowDown {
+    width: 44px;
+    margin-top: 32px;
+}
+
+.textSlide {
+    margin: -30px 0% 5% 5%;
+}
+
+.hebergementTextSlide {
+    background-color: #F6F6F6;
+    width: 77%;
+    margin: -40px 0% 5% 5%;
+}
+
+.hebergementCollapseItem + .hebergementCollapseItem .textSlide {
+    margin: -20px 0% 5% 4%;
+    z-index: -1;
+  }
+
+  .hebergementCollapseItem:first-child .textSlide {
+    margin: -20px 0% 5% 4%;
+    z-index: -1;
+  }
+
+p {
+  margin: 6px;
+}
+
+@media screen and (max-width: 650px) {
+   .hebergementCollapse {
+    flex-direction: column;
+    align-items: center;
+    
+
+   }
+
+   .hebergementCollapseItem {
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0;
+    
+   }
+}
+

@@ -6,3 +6,13 @@
     background-color: #F6F6F6;
     padding: 40px;
 }
+
+@media screen and (max-width: 650px) {
+    .homeGallery {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 0px;
+        align-items: center;
+    }      
+}

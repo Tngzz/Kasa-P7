@@ -2,11 +2,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 6%;
 }
 
-.errorImg {
-    width: 700px;
+.numberText {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 288px;
+    color:#FF6060;
 }
 
 .errorText {
@@ -20,4 +23,24 @@
     font-size: 25px;
     margin-top: 5%;
     color:#FF6060;
+}
+
+@media screen and (max-width: 650px) {
+    .numberText {
+        
+        font-weight: 700;
+        font-size: 136px;
+        color:#FF6060;
+        margin-top: 15%;
+    }
+    .errorText {
+        font-size: 20px;
+        text-align: center;
+        max-width: 70%;
+        font-weight: 600;
+    }
+    .linkBackHome {
+        font-size: 17px;
+        margin-top: 25%;
+    }
 }

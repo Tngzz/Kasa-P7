@@ -24,3 +24,24 @@ nav ul li a {
     font-size: 24px;
     color: #FF6060;
 }
+
+@media screen and (max-width: 650px) {
+    .imgHeader {
+        width: 125px;
+        margin-top: 20px;
+    }
+
+    nav li {
+        padding: 0px;
+        margin: 8px;
+    }
+
+    nav ul li a {
+        font-size: 17px;
+    }
+
+    nav ul {
+        margin-top: 24px;
+    }
+    
+}

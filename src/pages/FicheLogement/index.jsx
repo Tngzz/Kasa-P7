@@ -5,6 +5,8 @@ import Data from '../../data/data.json';
 import Error from '../../components/Error';
 import Carrousel from '../../components/Carrousel';
 import Info from '../../components/Info';
+import CollapseHebergement from '../../components/CollapseHebergement';
+
 
 export default function MyComponent() {
     const { id } = useParams();
@@ -20,11 +22,13 @@ export default function MyComponent() {
   
   export function Hebergements(props) {
     const { hebergementActuel } = props;
+    
     return (
       <div>
         <Header />
         <Carrousel dataHebergement={hebergementActuel} />
         <Info />
+        <CollapseHebergement />
         <Footer />
       </div>
     );

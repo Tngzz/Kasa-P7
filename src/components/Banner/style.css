@@ -1,7 +1,7 @@
 .banner {
     height: 220px;
     width: 90%;
-    border-radius: 25px;
+    border-radius: 10px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/banner.png');
     background-position: center;
     margin: 43px auto;
@@ -28,4 +28,17 @@
     color: white;
     font-size: 48px;
     
+}
+
+@media screen and (max-width: 650px) {
+    .TitleBanner {
+        font-size: 24px;
+        margin-left: -50px;
+        width: 220px;
+    }
+
+    .banner {
+        height: 110px;
+        margin: 10px auto;
+    }
 }
