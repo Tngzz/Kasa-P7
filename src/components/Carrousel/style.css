@@ -54,6 +54,8 @@
 @media screen and (max-width: 650px) {
     .carrouselImg {
       height: 255 px;
+      width: 98%;
+      margin: 2px;
     }
 
     .carrousel {
@@ -63,13 +65,13 @@
     .arrowNext {
       width: 20px;
       height: 20px;
-      right: 10%;
+      right: 5%;
     }
 
     .arrowPrevious {
       width: 20px;
       height: 20px;
-      left: 10%;
+      left: 5%;
     }
 }
   

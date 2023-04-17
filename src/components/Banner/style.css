@@ -1,3 +1,4 @@
+/* Banière originale */
 .banner {
     height: 220px;
     width: 90%;
@@ -11,6 +12,7 @@
     background-size: cover;
 }
 
+/* Banière page about */
 .bannerAbout {
     height: 220px;
     width: 90%;
@@ -40,5 +42,10 @@
     .banner {
         height: 110px;
         margin: 10px auto;
+    }
+    
+    .bannerAbout {
+        width: 100%;
+        margin: 25px 0 25px 0;
     }
 }
