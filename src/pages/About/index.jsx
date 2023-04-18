@@ -40,6 +40,7 @@ export default function aboutData () {
                     {aboutDatas.map(Data => {
                         return (
                             <Collapse
+                                key={Data.id} 
                                 title={Data.title}
                                 texte={Data.texte}
                             />

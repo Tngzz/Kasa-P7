@@ -25,12 +25,11 @@
 .arrowDown {
     width: 23px;
     margin-top: 10px;
-    
 }
 
 .rotate {
     transform: rotate(180deg);
-  }
+}
 
 .textSlide {
     background-color: #F6F6F6;

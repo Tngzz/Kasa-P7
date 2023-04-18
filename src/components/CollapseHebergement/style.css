@@ -1,9 +1,8 @@
 .hebergementCollapseItem {
     flex-basis: 50%;
-    margin-left: 60px;
+    margin-left: 5%;
     margin-bottom: 30px;
     width: 80%;
-    
 }
 
 .hebergementCollapse {
@@ -49,6 +48,10 @@ p {
     margin-bottom: 0px;
   }
 
+  .hebergementCollapse {
+    margin-bottom: 6%;
+  }
+
   .hebergementCollapseItem:first-child .textSlide {
     margin: 0px 0% 5% 10%; 
   }
@@ -74,13 +77,11 @@ p {
    .hebergementCollapseItem:first-child .textSlide {
     margin: 0px 0% 5% 2%;
     width: 94%;
-    
   }
 
   .hebergementCollapseItem + .hebergementCollapseItem .textSlide {
     margin: 0px 0% 5% 2%;
     width: 94%;
-    
   }
 }
 
