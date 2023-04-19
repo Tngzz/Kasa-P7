@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './Home/Home';
 import Hebergements from './FicheLogement';
 import About from './About';
-import Error from '../components/Error';
+import Error from '../../src/pages/Error';
 
 const PublicRouter = () => {
     return (

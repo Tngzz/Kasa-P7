@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 import './style.css';
 import Logo from '../../assets/Logo.png';
 
-function header () {
+function Header () {
     return (
         <div className='header'>
             <header>
                 <div> 
-                    <a href="/home">
+                    <Link to={"/home"}>
                         <img className='imgHeader' src={Logo} alt="Kasa, location d'appartement" />
-                    </a>
+                    </Link>
                 </div>
                 <nav className='navBar'>
                     <ul>
@@ -24,4 +24,4 @@ function header () {
     );
 };
 
-export default header;
+export default Header;

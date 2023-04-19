@@ -1,7 +1,7 @@
 import './style.css';
 import { Link } from 'react-router-dom';
 import ErrorImg from '../../assets/404.png'
-import Header from '../Header/index';
+import Header from '../../components/Header/index';
 
 function Error () {
     return (

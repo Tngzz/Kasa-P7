@@ -2,7 +2,7 @@ import Header from '../../components/Header/index';
 import Footer from '../../components/Footer/index';
 import { useParams } from 'react-router-dom';
 import Data from '../../data/data.json';
-import Error from '../../components/Error';
+import Error from '../../pages/Error';
 import Carrousel from '../../components/Carrousel';
 import Info from '../../components/Info';
 import CollapseHebergement from '../../components/CollapseHebergement';
